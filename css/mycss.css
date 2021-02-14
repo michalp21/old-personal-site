@@ -26,9 +26,24 @@
 
 .introblurb p{
     font-size: 17pt;
-    width: 60%;
+    width: 100%;
 }
 
+.introblurb .hey{
+    padding-bottom: 20px;
+}
+
+.introblurb .links{
+    padding-top: 20px;
+}
+
+.schools img {
+    /*height: 100%;*/
+    width: 10%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .scroll{
     position: absolute;
@@ -107,13 +122,13 @@
 }
 
 .description-title{
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-bottom:0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .description-position, .description-text{
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     margin: 0;
     padding: 0;
     margin-bottom:.5vw;
@@ -121,6 +136,9 @@
 }
 
 @media (max-width: 767px) {
+    .schools img {
+        width: 50px;
+    }
     .description-position, .description-text{
         font-size: 2vw;
         margin: 0;
@@ -136,6 +154,9 @@
     .introblurb p{
         font-size: 14pt;
         width:100%;
+    }
+    .schools img {
+        width: 50px;
     }
     .description-title{
         font-size: 8vw;

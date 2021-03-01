@@ -122,13 +122,13 @@
 }
 
 .description-title{
-    font-size: 2.5vw;
+    font-size: 30pt;
     margin-bottom:0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .description-position, .description-text{
-    font-size: 1.25vw;
+    font-size: 15pt;
     margin: 0;
     padding: 0;
     margin-bottom:.5vw;
